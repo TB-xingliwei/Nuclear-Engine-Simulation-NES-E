@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<precice-configuration>
+    <log>
+        <sink type="stream" output="stdout" filter="%Severity% > debug" />
+    </log>
+
+    <data:scalar name="Temperature"/>
+    <data:scalar name="Power"/>
+
+    <mesh name="MeshOne" dimensions="3">
+        <use-data name="Temperature"/>
+        <use-data name="Power"/>
+    </mesh>
+
+    <participant name="OpenMC">
+        <provide-mesh name="MeshOne"/>
+        <write-data name="Power" mesh="MeshOne"/>
+        <read-data name="Temperature" mesh="MeshOne"/>
+    </participant>
+
+    <participant name="OpenFOAM">
+        <receive-mesh name="MeshOne" from="OpenMC" api-access="true"/>
+        <write-data name="Temperature" mesh="MeshOne"/>
+        <read-data name="Power" mesh="MeshOne"/>
+    </participant>
+
+    <m2n:sockets acceptor="OpenMC" connector="OpenFOAM" enforce-gather-scatter="true"/>
+
+    <coupling-scheme:serial-implicit>
+        <participants first="OpenMC" second="OpenFOAM"/>
+        <max-time value="1.0"/>
+        <time-window-size value="0.01"/>
+        <max-iterations value="10"/>
+        <relative-convergence-measure limit="1e-6" data="Power" mesh="MeshOne"/>
+        
+        <exchange data="Power" mesh="MeshOne" from="OpenMC" to="OpenFOAM"/>
+        <exchange data="Temperature" mesh="MeshOne" from="OpenFOAM" to="OpenMC"/>
+    </coupling-scheme:serial-implicit>
+
+</precice-configuration>
