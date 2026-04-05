@@ -1,32 +1,32 @@
-(0) 18:48:54 [impl::ParticipantImpl]:185 in configure: [0mThis is preCICE version 3.4.0
-(0) 18:48:54 [impl::ParticipantImpl]:186 in configure: [0mRevision info: no-info [git failed to run]
-(0) 18:48:54 [impl::ParticipantImpl]:205 in configure: [0mBuild type: Release (without debug log)
-(0) 18:48:54 [impl::ParticipantImpl]:207 in configure: [0mWorking directory "/home/tb-xingliwei/nuclear-engine-core"
-(0) 18:48:54 [impl::ParticipantImpl]:211 in configure: [0mConfiguring preCICE with configuration "config_unified.xml"
-(0) 18:48:54 [impl::ParticipantImpl]:212 in configure: [0mI am participant "OpenMC"
-(0) 18:49:05 [impl::ParticipantImpl]:335 in setupCommunication: [0mSetting up primary communication to coupling partner/s
-(0) 18:49:05 [impl::ParticipantImpl]:351 in setupCommunication: [0mPrimary ranks are connected
-(0) 18:49:06 [impl::ParticipantImpl]:357 in setupCommunication: [0mSetting up preliminary secondary communication to coupling partner/s
-(0) 18:49:06 [partition::ProvidedPartition]:120 in prepare: [0mPrepare partition for mesh MeshOne
-(0) 18:49:10 [partition::ProvidedPartition]:87 in communicate: [0mGather mesh MeshOne
-(0) 18:49:10 [partition::ProvidedPartition]:104 in communicate: [0mSend global mesh MeshOne
-(0) 18:49:12 [impl::ParticipantImpl]:366 in setupCommunication: [0mSetting up secondary communication to coupling partner/s
-(0) 18:49:12 [impl::ParticipantImpl]:373 in setupCommunication: [0mSecondary ranks are connected
-(0) 18:49:12 [impl::ParticipantImpl]:298 in initialize: [0mit 1 (min: 1, max: 10), time-window 1, t 0 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:49:32 [impl::ParticipantImpl]:457 in advance: [0mit 2 (min: 1, max: 10), time-window 1, t 0 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:49:56 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
-(0) 18:49:56 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 2, t 0.01 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:50:18 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
-(0) 18:50:18 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 3, t 0.02 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:50:36 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
-(0) 18:50:36 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 4, t 0.03 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:50:55 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
-(0) 18:50:55 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 5, t 0.04 (max: 1), Dt 0.01, max-dt 0.01
-(0) 18:50:55 [impl::ParticipantImpl]:1832 in closeCommunicationChannels: [0mClose communication channels
+(0) 19:14:39 [impl::ParticipantImpl]:185 in configure: [0mThis is preCICE version 3.4.0
+(0) 19:14:39 [impl::ParticipantImpl]:186 in configure: [0mRevision info: no-info [git failed to run]
+(0) 19:14:39 [impl::ParticipantImpl]:205 in configure: [0mBuild type: Release (without debug log)
+(0) 19:14:39 [impl::ParticipantImpl]:207 in configure: [0mWorking directory "/media/tb-xingliwei/PDE/nuclear-engine"
+(0) 19:14:39 [impl::ParticipantImpl]:211 in configure: [0mConfiguring preCICE with configuration "config_unified.xml"
+(0) 19:14:39 [impl::ParticipantImpl]:212 in configure: [0mI am participant "OpenMC"
+(0) 19:14:49 [impl::ParticipantImpl]:335 in setupCommunication: [0mSetting up primary communication to coupling partner/s
+(0) 19:14:49 [impl::ParticipantImpl]:351 in setupCommunication: [0mPrimary ranks are connected
+(0) 19:14:50 [impl::ParticipantImpl]:357 in setupCommunication: [0mSetting up preliminary secondary communication to coupling partner/s
+(0) 19:14:50 [partition::ProvidedPartition]:120 in prepare: [0mPrepare partition for mesh MeshOne
+(0) 19:14:54 [partition::ProvidedPartition]:87 in communicate: [0mGather mesh MeshOne
+(0) 19:14:54 [partition::ProvidedPartition]:104 in communicate: [0mSend global mesh MeshOne
+(0) 19:14:56 [impl::ParticipantImpl]:366 in setupCommunication: [0mSetting up secondary communication to coupling partner/s
+(0) 19:14:56 [impl::ParticipantImpl]:373 in setupCommunication: [0mSecondary ranks are connected
+(0) 19:14:56 [impl::ParticipantImpl]:298 in initialize: [0mit 1 (min: 1, max: 10), time-window 1, t 0 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:15:15 [impl::ParticipantImpl]:457 in advance: [0mit 2 (min: 1, max: 10), time-window 1, t 0 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:15:33 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
+(0) 19:15:33 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 2, t 0.01 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:15:51 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
+(0) 19:15:51 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 3, t 0.02 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:16:08 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
+(0) 19:16:08 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 4, t 0.03 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:16:25 [cplscheme::BaseCouplingScheme]:391 in secondExchange: [0mTime window completed
+(0) 19:16:25 [impl::ParticipantImpl]:457 in advance: [0mit 1 (min: 1, max: 10), time-window 5, t 0.04 (max: 1), Dt 0.01, max-dt 0.01
+(0) 19:16:25 [impl::ParticipantImpl]:1832 in closeCommunicationChannels: [0mClose communication channels
 [OpenMC] 500³ 优化版启动...
-OpenMC: 64,000,000 点
+OpenMC: 59,319,000 点
 生成网格...
-顶点: 768.0 MB
+顶点: 711.8 MB
 dt=0.01
   [OpenMC] 写入检查点
 步 1: T=300.0K
@@ -39,4 +39,3 @@ dt=0.01
   [OpenMC] 写入检查点
 步 5: T=300.0K
 OpenMC 完成
-温度场和功率场已保存

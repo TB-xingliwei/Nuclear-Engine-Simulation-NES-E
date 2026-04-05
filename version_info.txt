@@ -1,0 +1,27 @@
+========================================
+验证环境版本信息
+========================================
+日期: Fri Apr  3 19:26:46 CST 2026
+系统: Ubuntu 25.10
+内核: 6.17.0-19-generic
+
+preCICE 版本:
+3.4.0;no-info [git failed to run];PRECICE_FEATURE_MPI_COMMUNICATION=Y;PRECICE_FEATURE_PETSC_MAPPING=Y;PRECICE_FEATURE_GINKGO_MAPPING=N;PRECICE_FEATURE_PYTHON_ACTIONS=Y;PRECICE_BINDINGS_C=Y;PRECICE_BINDINGS_FORTRAN=Y;CXX=GNU;CXXFLAGS= -O3 -DNDEBUG;LDFLAGS=
+
+Python 版本:
+Python 3.13.7
+
+OpenFOAM: 12
+OpenMC: 0.15.3
+
+成功运行的规模:
+- 300³ (27M 点) ✅
+- 350³ (43M 点) ✅
+- 380³ (55M 点) ✅
+- 390³ (60M 点) ✅
+- 400³ (64M 点) ✅
+
+稳定上限: 400³ (约 6400 万点)
+
+硬件: HP 战 99, 32GB 内存
+========================================

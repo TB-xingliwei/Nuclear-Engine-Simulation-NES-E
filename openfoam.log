@@ -1,0 +1,7 @@
+(0) 06:52:45 [impl::ParticipantImpl]:185 in configure: [0mThis is preCICE version 3.3.1
+(0) 06:52:45 [impl::ParticipantImpl]:186 in configure: [0mRevision info: no-info [git failed to run]
+(0) 06:52:45 [impl::ParticipantImpl]:205 in configure: [0mBuild type: Release (without debug log)
+(0) 06:52:45 [impl::ParticipantImpl]:207 in configure: [0mWorking directory "/media/tb-xingliwei/PDE/nuclear-engine"
+(0) 06:52:45 [impl::ParticipantImpl]:211 in configure: [0mConfiguring preCICE with configuration "config_unified.xml"
+(0) 06:52:45 [impl::ParticipantImpl]:212 in configure: [0mI am participant "OpenFOAM"
+(0) 06:52:45 [impl::ParticipantImpl]:335 in setupCommunication: [0mSetting up primary communication to coupling partner/s
