@@ -707,7 +707,7 @@ Tb-xingliwei@tb-xingliwei:~/nuclear-engine-core$
 ```markdown
 # Nuclear Engine Simulation (NES) — Open-Source Multi-Physics Coupling
 
-**390^3 mesh | OpenMC <-> OpenFOAM <-> CalculiX | preCICE | 28 GB RAM**
+**400^3 mesh | OpenMC <-> OpenFOAM <-> CalculiX | preCICE | 28 GB RAM**
 
 ## What This Is
 A multi-physics coupled simulation of a nuclear engine built entirely on open-source tools:
