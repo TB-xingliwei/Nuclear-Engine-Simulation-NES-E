@@ -736,4 +736,4 @@ A multi-physics coupled simulation of a nuclear engine built entirely on open-so
 ```
 ```
 
-<img width="1101" height="1304" alt="截图 2026-04-04 18-49-39" src="https://github.com/user-attachments/assets/ccd4997c-11c6-4c29-b947-66e72c3c0680" />
+
